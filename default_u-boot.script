@@ -1,0 +1,5 @@
+#setenv bootm_boot_mode nonsec
+setenv bootargs 'root=/dev/mmcblk0p1 rw rootwait console=ttyS0,115200'
+load ${devtype} ${devnum}:1 ${kernel_addr_r}  /boot/zImage
+load ${devtype} ${devnum}:1 ${fdt_addr_r}     /boot/tegra124-jetson-tk1.dtb
+bootz ${kernel_addr_r} ${ramdisk_addr_r}:${filesize} ${fdt_addr_r}

@@ -1,0 +1,29 @@
+[submodule "linux"]
+	path = linux
+	url = https://github.com/lfd/linux.git
+	branch = jailhouse-tk1
+[submodule "jailhouse"]
+	path = jailhouse
+	url = https://github.com/lfd/jailhouse.git
+    branch = rtems
+[submodule "tegra-uboot-flasher-scripts"]
+	path = tegra-uboot-flasher-scripts
+	url = https://github.com/NVIDIA/tegra-uboot-flasher-scripts.git
+[submodule "tegrarcm"]
+	path = tegrarcm
+	url = https://github.com/NVIDIA/tegrarcm.git
+[submodule "cbootimage"]
+	path = cbootimage
+	url = https://github.com/NVIDIA/cbootimage.git
+[submodule "cbootimage-configs"]
+	path = cbootimage-configs
+	url = https://github.com/NVIDIA/cbootimage-configs.git
+[submodule "rtems/rtems"]
+	path = rtems/rtems-git
+	url = https://github.com/lfd/rtems
+[submodule "rtems/rtems-source-builder"]
+	path = rtems/rtems-source-builder
+	url = git://git.rtems.org/rtems-source-builder.git
+[submodule "u-boot"]
+	path = u-boot
+	url = git://git.denx.de/u-boot-tegra.git
